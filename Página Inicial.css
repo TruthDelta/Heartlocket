@@ -1,0 +1,50 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+header {
+background-color: rgb(15, 15, 15);
+text-align: center;
+padding: 20px;
+color: white;
+}
+
+.universos {
+background-color: rgb(205, 0, 0);
+padding: 20px;
+}
+
+.universos li {
+text-decoration: none;
+list-style: none;
+justify-content: space-evenly;
+flex-wrap: wrap;
+display: flex;
+}
+
+.universos li a {
+text-decoration: none;
+color: black;
+}
+
+.meio1 {
+    background-image: url(Imagens/bg\ inicial.png);
+    background-size: 300px;
+    background-color: rgba(165, 42, 42, 0.646);
+    padding: 40px;
+    display: flex;
+    background-repeat: repeat;
+}
+
+.meio1 div {
+display: flex;
+justify-content: center;
+}
+
+.noticias {
+width: 200px;
+height: 4000px;
+background-color: gray;
+
+}
