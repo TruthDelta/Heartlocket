@@ -30,21 +30,17 @@ color: black;
 
 .meio1 {
     background-image: url(Imagens/bg\ inicial.png);
-    background-size: 300px;
+    background-size: cover;
     background-color: rgba(165, 42, 42, 0.646);
     padding: 40px;
     display: flex;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 .meio1 div {
-display: flex;
-justify-content: center;
-}
-
-.noticias {
-width: 200px;
-height: 4000px;
+width: 60vw;
+height: 4vh;
 background-color: gray;
-
+text-align: center;
 }
