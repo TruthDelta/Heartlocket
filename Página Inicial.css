@@ -38,9 +38,20 @@ color: black;
     justify-content: center;
 }
 
-.meio1 div {
-width: 60vw;
-height: 4vh;
-background-color: gray;
-text-align: center;
+#ulti_noticias {
+background-color: rgb(106, 0, 0);
+display: flex;
+padding: 1em;
+align-items: center;
+justify-content: space-between;
+}
+
+#ulti_noticias h2 {
+font-size: 30px;
+color: white;
+}
+
+#ulti_noticias img {
+width: 30px;
+padding: 3px;
 }
